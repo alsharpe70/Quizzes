@@ -1,0 +1,120 @@
+1.  How do you let git know you want to track changes made in a directory?
+            My using git version control
+
+2.  How do you tell git that you like the work you’ve done and want it to be a part of a chunk of work to be saved?
+                               Git init
+
+3.  How do you tell git you want to save a chunk of work?
+                 Git commit
+
+4.  How do you tell git where to push your local changes up to a online repository?
+                          Go to GitHub and start a new repository and push your cold there
+
+5.  How can you safely work on a different version of your current project?
+           By creating branches on your get hub repository work on your changes and when there complete merge them into GitHub 
+
+6.  How can you make that different version become a part of your main version
+               By merging the your change branch into the main branch merging both files so there chugs will be made
+
+7.  How do I move between versions of my project?
+          By using git with the command mv
+
+8.  How can I go back to previous chunks of work that I’ve created and work from that point in time?
+
+   By cloning your repository and starting a new branch. Ill work on the new branch then merge it to the master branch, after you take a look at it and ok it then you push it to the main branch 
+
+
+                 Part 2
+1.  How do I run my code from the terminal?
+      Open up terminal then cd into the desktop and make a new directory (mkdir)
+
+2.  What can I use to reference a value later in my code?
+                 By assigning it a Var.     ( x = 10) 
+3.  How can I make my program display text or some value in my terminal?
+           Either hit the green run symbol or use command python “name of the file”
+
+4.  How can I make my code make decisions on which code to execute?
+          By using if/else statement
+
+5.  How can I repeat blocks of code based on conditions?
+          Condition and loops
+
+6.  Why is it critical to ensure that our conditions eventually become false when repeating blocks of code?
+             If it is true, the code executes the body of the loop again. This process is repeated as long as the expression evaluates to true. If the expression is false, the loop terminates and control transfers to the statement following the do-while loop.
+
+7.  What are sequences and what are the differences between them?
+     In Python, sequence is the generic term for an ordered set. ... Lists are the most versatile sequence type. The elements of a list can be any object, and lists are mutable - they can be changed. Elements can be reassigned or removed, and new elements can be inserted.
+
+8.  How do I access a value within the various types of sequences? 
+        By using range()
+
+9.  What is an index when talking about sequences?
+          To “index into” a sequence is to retrieve a single member by specifying an integer index, that indicates the place of that member in the sequence: seq[index] . 
+
+10. What is the index of the first value within a sequence?
+       0 is the first value
+
+11. How can I add or remove a value from a sequence?
+        	append(): append the object to the end of the list., and
+               insert(): inserts the object before the given index.
+               clear()
+                remove()
+
+12. What is the index of the last value within a sequence?
+                             -1 list[-1]
+               
+13. How can I get the length of a sequence?
+                The len() function for getting the length of a list
+
+14. What can I use to reference and use a block of code later in my code?
+       By using def function
+
+15. What is DRY?
+        Don’t repeat yourself  software development package
+
+16. What is Scope? Provide an example.
+        The scope defines the accessibility of the python object. To access the particular variable in the code, the scope must be defined as it cannot be accessed from anywhere in the program
+
+17. What is the difference between parameters and arguments?
+        Can be used at the same thing as information to pass a function
+
+18. That is recursion?
+           Function that is a function defined in terms of itself via self referential expressions
+
+19. How can you return a value from a function?
+         To return a value from a function, you must include a return statement, followed by the value to be returned, before the function's end statement. If you do not include a return statement or if you do not specify a value after the keyword return, the value returned by the function is unpredictable.
+
+20. Describe a dictionary. How and why would it be useful?
+          is an unordered collection of data values, used to store data values like a map, which, unlike other Data Types that hold only a single value as an elemen
+
+21. How can you remove a value from a dictionary?
+          To remove a key from a dictionary in Python, use the pop() method or the “del” keyword
+
+22. How can you access and change values within a dictionary?
+ 
+     Use the format dict[key] = value to assign a new value to an existing key.
+1. a_dictionary = {"a": 1, "b": 2}
+2. a_dictionary["b"] = 3.
+3. print(a_dictionary)
+
+23. What data types can a sequence hold?
+     These are ones that are ordered in a defined sequence.
+       Strings are an example of a sequential data type.
+
+
+24. What data types can a dictionary hold?
+
+25. How can you iterate through a dictionary?
+
+26. What is object oriented programming?
+
+27. Describe a class? Why are they useful?
+
+28. What are class properties? How would I give a class an initial set of properties?
+
+29. What are class methods?
+
+30. What is inheritence?
+10:23
+Be sure to add examples for the python section.
+
