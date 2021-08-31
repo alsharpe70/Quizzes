@@ -103,18 +103,34 @@
 
 
 24. What data types can a dictionary hold?
-
+     to store data values like a map, which, unlike other Data Types that hold
+      only a single value as an element
 25. How can you iterate through a dictionary?
-
+       Use dict. items() to iterate over the keys and values of a dictionary
+       a_dictionary = {"a": 1, "b": 2}
+       for key, value in a_dictionary. items(): Iterate over keys and values.
+        print(key, value)
 26. What is object oriented programming?
+     Object-oriented programming is a programming paradigm that provides a 
+     means of structuring programs so that properties and behaviors are
+      bundled into individual objects    
 
 27. Describe a class? Why are they useful?
+       a Python class is for defining a particular type of object. Because Python
+        objects can have both function and data elements, Python classes define 
+        what methods can be used to change the state of an object. They also 
+        indicate what attributes the object can have.
 
 28. What are class properties? How would I give a class an initial set of properties?
-
+      The property() method in Python provides an interface to instance attributes
 29. What are class methods?
-
+     A class method is a method which is bound to the class and not the object of 
+     the class
 30. What is inheritence?
-10:23
+     Inheritance allows us to define a class that inherits all the methods and 
+     properties from another class. Parent class is the class being inherited 
+     from, also called base class. Child class is the class that inherits from 
+     another class, also called derived class.
+     
 Be sure to add examples for the python section.
 
